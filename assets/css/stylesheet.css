@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 1.5rem;
+    background-color: #28A745;
+}
+
+.navbar-brand img {
+    width: 6.25rem;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* Tarjetas */
+
+.card {
+    margin-top: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+}
+
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #212529 !important;
+}
+
+.card-text {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #6c757d !important;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.text-muted { 
+    color: #707070 !important;
+    font-weight: 300;
+}
+
+.text-success {
+    font-size: 1.3rem;
+    color: #28A745 !important;
+    font-weight: 500;
+}
+
+.card .text-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Contacto */
+#Contacto {
+    background-color: #28a745;
+}
+
+
+#Contacto .form-control {
+    font-weight: 300;
+    color: #707070;
+}
+
+.custom-btn {
+    background-color: #F8F9FA;
+    color: #212529;
+    border: none;
+    padding: 0.5rem 2.5rem; 
+    font-size: 1rem; 
+    font-weight: 500;
+    transition: background-color 0.3s ease; 
+}
+
+.custom-btn:hover {
+    background-color: #212529; 
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: #FFFFFF;
+    color: #707070;
+}
+
+footer img{
+    max-width: 6rem;
+    height: auto;
+}
+
+
+/* Media? texto para cuando se achique */
+
+@media (max-width: 768px) {
+    #Contacto form label {
+        font-weight: 500;
+    }
+
+    .navbar-brand {
+        width: 100px;
+    }
+
+}
